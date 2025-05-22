@@ -1,0 +1,33 @@
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  text-align: center;
+}
+#umhlanga{
+    font-weight: bold;
+    margin: 0;
+}
+#bc{
+    font-style: oblique;
+    font-size: 15px;
+        margin: 0;
+}
+.navbar-brand div{
+    border: gray solid 1px;
+    padding: 5px;
+    height: 65px;
+    margin: 0px 5px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: green underline 3px;
+}
