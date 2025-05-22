@@ -1,3 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(24, 54, 56);
+}
+
 header {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 20px;
@@ -30,4 +39,45 @@ nav a {
 
 nav a:hover {
   text-decoration: green underline 3px;
+}
+h2{
+    color: white;
+    margin-bottom: 10% 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0;
+    padding: 5% 0;
+
+    
+    width: 80%;
+    box-shadow: 5px 1pc 20px 2px white;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+}
+button{
+    width: 90%;
+    padding: 10px;
+    background-color: green;
 }

@@ -50,6 +50,7 @@ nav a:hover {
 h2{
     text-align: center;
     text-shadow: 2px 2px 15px rgb(228, 224, 224);
+    font-weight: bold;
     /* backdrop-filter:blur(1px); */
 }
 main {
@@ -78,12 +79,22 @@ h1, h2 {
 .menu-section ul li{
     width: 90%;
         border-bottom:  rgb(143, 142, 142) solid 1px;
+padding: 8px 0;
 
 }
-ul li{
+ul li a{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+ul li a:hover{
+    background-color: green;
 }
 li img {
     width: 100px;
