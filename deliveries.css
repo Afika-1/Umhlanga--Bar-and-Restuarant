@@ -62,11 +62,14 @@ form {
     justify-content: center;
     
     margin: 5% 0;
-    padding: 5% 0;
+    padding: 3% 0;
     background-color: rgba(0, 0, 0, 0.1);
     
     width: 80%;
     box-shadow: 1px  3px 5px  rgb(139, 139, 139);
+}
+form h3{
+    margin-bottom:5%;
 }
 
 label {
@@ -84,4 +87,8 @@ button{
     width: 90%;
     padding: 10px;
     background-color: green;
+    color: white;
 }
+button:hover{
+    border: 1px solid white;}
+
