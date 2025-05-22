@@ -22,11 +22,13 @@ header {
 #umhlanga{
     font-weight: bold;
     margin: 0;
+     /* text-shadow: 3px 2px 5px black; */
 }
 #bc{
     font-style: oblique;
     font-size: 15px;
         margin: 0;
+         text-shadow: 3px 2px 5px black;
 }
 .navbar-brand div{
     border: gray solid 1px;
@@ -35,7 +37,7 @@ header {
     margin: 0px 5px 0px 5px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+  background-color: rgba(0, 0, 0, 0.1);
     justify-content: center;
 }
 nav a {
@@ -82,7 +84,7 @@ h1, h2 {
 padding: 8px 0;
 
 }
-ul li a{
+.menu-section ul li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,7 +95,7 @@ ul li a{
     padding: 10px;
     
 }
-ul li a:hover{
+.menu-section ul li a:hover{
     background-color: green;
 }
 li img {

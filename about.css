@@ -1,3 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("images/pexels-sarah-o-shea-98049248-9954246.jpg");
+  
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+  height: 100vh;
+}
+
+
 header {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 20px;
@@ -11,6 +31,7 @@ header {
     font-style: oblique;
     font-size: 15px;
         margin: 0;
+         text-shadow: 3px 2px 5px black;
 }
 .navbar-brand div{
     border: gray solid 1px;
@@ -21,7 +42,14 @@ header {
     flex-direction: column;
     /* align-items: center; */
     justify-content: center;
+      background-color: rgba(0, 0, 0, 0.1);
+
 }
+nav a{
+    /* background-color: black; */
+    color: white;
+}
+
 nav a {
   color: white;
   margin: 0 15px;
@@ -30,4 +58,29 @@ nav a {
 
 nav a:hover {
   text-decoration: green underline 3px;
+}
+
+section{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+
+    
+}
+main div{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 8%;
+}
+
+main div h1{
+    text-shadow: 3px 2px 5px black;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+main div p{
+        text-shadow: 3px 2px 5px black;
 }
